@@ -23,9 +23,10 @@ class AddCardAction extends Action {
      //    }else{
      //        $this->error($Card->getError());
      //    }
-        $Card=M('test');
-        $data['num']=3;
-        $data['ch']="ni ma bi";
-        $Card->add($data);
+        // $Card=M('test');
+        // $data['num']=3;
+        // $data['ch']="ni ma bi";
+        // $Card->add($data);
+        echo gettype(date("Y-m-dH:i:s"));
     }
 }
